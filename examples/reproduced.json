@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "proofId": "repro-proof-20260826",
+  "evaluationTime": "2026-08-26T09:00:00.000Z",
+  "policy": {
+    "sourceRevisionSha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "recipeSha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "buildTypeHash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+    "parametersSha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+    "dependencySetSha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "environmentContractSha256": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+    "minIndependentBuilders": 2,
+    "requireDistinctOperators": true,
+    "maxEvidenceAgeMs": 14400000,
+    "allowedBuilderHashes": [
+      "3333333333333333333333333333333333333333333333333333333333333333",
+      "4444444444444444444444444444444444444444444444444444444444444444"
+    ],
+    "allowedOperatorHashes": [
+      "5555555555555555555555555555555555555555555555555555555555555555",
+      "6666666666666666666666666666666666666666666666666666666666666666"
+    ],
+    "specifiedOutputs": [
+      {
+        "nameHash": "1111111111111111111111111111111111111111111111111111111111111111",
+        "sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+        "size": 4096
+      }
+    ]
+  },
+  "builds": [
+    {
+      "id": "build-alpha",
+      "builderHash": "3333333333333333333333333333333333333333333333333333333333333333",
+      "operatorHash": "5555555555555555555555555555555555555555555555555555555555555555",
+      "builderEnvironmentSha256": "7777777777777777777777777777777777777777777777777777777777777777",
+      "provenanceSha256": "9999999999999999999999999999999999999999999999999999999999999999",
+      "sourceRevisionSha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "recipeSha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "buildTypeHash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+      "parametersSha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "dependencySetSha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "environmentContractSha256": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "status": "succeeded",
+      "finishedAt": "2026-08-26T08:00:00.000Z",
+      "outputs": [
+        { "nameHash": "1111111111111111111111111111111111111111111111111111111111111111", "sha256": "2222222222222222222222222222222222222222222222222222222222222222", "size": 4096 }
+      ]
+    },
+    {
+      "id": "build-beta",
+      "builderHash": "4444444444444444444444444444444444444444444444444444444444444444",
+      "operatorHash": "6666666666666666666666666666666666666666666666666666666666666666",
+      "builderEnvironmentSha256": "8888888888888888888888888888888888888888888888888888888888888888",
+      "provenanceSha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "sourceRevisionSha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "recipeSha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "buildTypeHash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+      "parametersSha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "dependencySetSha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "environmentContractSha256": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "status": "succeeded",
+      "finishedAt": "2026-08-26T08:05:00.000Z",
+      "outputs": [
+        { "nameHash": "1111111111111111111111111111111111111111111111111111111111111111", "sha256": "2222222222222222222222222222222222222222222222222222222222222222", "size": 4096 }
+      ]
+    }
+  ]
+}
