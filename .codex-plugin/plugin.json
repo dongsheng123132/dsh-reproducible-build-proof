@@ -1,19 +1,31 @@
 {
   "name": "dsh-reproducible-build-proof",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Offline proof that independent build receipts reproduce the same specified artifacts",
-  "author": { "name": "dongsheng123132" },
+  "author": {
+    "name": "dongsheng123132"
+  },
   "homepage": "https://github.com/dongsheng123132/dsh-reproducible-build-proof",
   "repository": "https://github.com/dongsheng123132/dsh-reproducible-build-proof",
   "license": "MIT",
-  "keywords": ["deepseek-harness", "dsh", "reproducible-builds", "supply-chain", "evidence"],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "reproducible-builds",
+    "supply-chain",
+    "evidence"
+  ],
   "interface": {
     "displayName": "DSH Reproducible Build Proof",
     "shortDescription": "Verify independent build receipt convergence.",
     "longDescription": "Compares explicit hash-only build receipts for equivalent inputs, independent builders and byte-identical specified outputs without running builds or authenticating provenance.",
     "developerName": "dongsheng123132",
     "category": "Developer Tools",
-    "capabilities": ["MCP tools", "DSH tools", "offline verification"],
+    "capabilities": [
+      "MCP tools",
+      "DSH tools",
+      "offline verification"
+    ],
     "defaultPrompt": "Verify this explicit reproducible-build manifest and return only hash-based evidence."
   },
   "mcpServers": "./.mcp.json"
