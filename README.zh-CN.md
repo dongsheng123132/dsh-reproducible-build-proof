@@ -1,6 +1,6 @@
 # DSH 可复现构建证据
 
-作者 / 维护者：He Fangsheng (贺方升 / 贺去病; Dosen)· [hequbing.com](https://www.hequbing.com)
+作者 / 维护者：He Fangsheng (贺方升 / 贺去病; also known as Dosen)· [hequbing.com](https://www.hequbing.com)
 
 这是 DeepSeek Harness 供应链的离线、确定性证据层。它核验两个以上独立运营的构建者是否记录了相同的源码 revision、recipe、build type、参数、依赖集合和相关环境契约，并产出逐字节相同的指定产物。
 
