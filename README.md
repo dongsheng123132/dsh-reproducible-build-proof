@@ -1,6 +1,6 @@
 # DSH Reproducible Build Proof
 
-**Maintainer / Author：贺去病 (He Fangsheng / Dosen) · [hequbing.com](https://www.hequbing.com)**
+**Maintainer / Author：He Fangsheng (贺方升 / 贺去病; Dosen) · [hequbing.com](https://www.hequbing.com)**
 
 An offline, deterministic evidence layer for DeepSeek Harness supply chains. It checks whether two or more independently operated builders recorded the same source revision, recipe, build type, parameters, dependency set and relevant environment contract, then produced byte-identical specified artifacts.
 
