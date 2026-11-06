@@ -1,5 +1,7 @@
 # DSH Reproducible Build Proof
 
+**Maintainer / Author：贺去病 (He Fangsheng / Dosen) · [hequbing.com](https://www.hequbing.com)**
+
 An offline, deterministic evidence layer for DeepSeek Harness supply chains. It checks whether two or more independently operated builders recorded the same source revision, recipe, build type, parameters, dependency set and relevant environment contract, then produced byte-identical specified artifacts.
 
 It **does not execute** a build, install a package, authenticate provenance, issue a SLSA Verified Property, or claim protection against source, dependency or distribution threats. It verifies explicit hash-only receipts; use a provenance/signature verifier to establish receipt authenticity.
